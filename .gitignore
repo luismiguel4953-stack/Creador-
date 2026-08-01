@@ -1,0 +1,84 @@
+# Flutter
+build/
+run_tests.sh
+run_tests_ios.sh
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/pubspec.lock
+
+# iOS/macOS
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+macOS/.symlinks/
+macOS/.generated/
+macOS/Flutter/Flutter-Debug.xcconfig
+macOS/Flutter/Flutter-Release.xcconfig
+macOS/Flutter/GeneratedPluginRegistrant.swift
+macOS/Flutter/ephemeral/
+macOS/Flutter/flutter_export_environment.sh
+macOS/Podfile.lock
+macOS/Pods/
+
+# Android
+android/.gradle
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/app/local.properties
+android/captures/
+android/gradle-wrapper.jar
+android/.dart_tool/
+android/key.properties
+android/gradlew
+android/gradlew.bat
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+.env
+.env.local
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Generated files
+*.g.dart
+*.config.dart
+*.freezed.dart
+*.part.dart
+*.riverpod.dart
+
+# Testing
+coverage/
+.coverage
+*.lcov
+
+# Misc
+local.properties
+dart_tool/
+.flutter-plugins-dependencies
+.fvm/flutter_sdk
+.fvm/.flutterversion
+.packages
+.dart_tool/
+pubspec.lock
